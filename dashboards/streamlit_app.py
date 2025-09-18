@@ -1,3 +1,8 @@
+try:
+    import geopandas as gpd
+    HAS_GPD = True
+except ImportError:
+    HAS_GPD = False
 
 import streamlit as st
 import pandas as pd
