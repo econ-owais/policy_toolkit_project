@@ -1,0 +1,12 @@
+
+name: econ-policy
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - statsmodels
+  - geopandas
+  - streamlit
+  - pytest
