@@ -1,6 +1,0 @@
- streamlit
-pandas
-numpy
-statsmodels
-geopandas
-requests
