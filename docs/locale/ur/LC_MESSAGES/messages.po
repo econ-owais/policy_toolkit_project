@@ -1,0 +1,9 @@
+
+msgid ""
+msgstr ""
+"Project-Id-Version: EconPolicyToolkit\n"
+"Language: ur\n"
+
+#: docs/index.rst:1
+msgid "Welcome to Econ Policy Toolkit docs"
+msgstr "Econ Policy Toolkit دستاویزات میں خوش آمدید"
