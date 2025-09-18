@@ -1,16 +1,15 @@
-try:
-    import geopandas as gpd
-    HAS_GPD = True
-except ImportError:
-    HAS_GPD = False
-
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 from econ_policy_toolkit.api.worldbank import fetch_indicator
 
 st.set_page_config(page_title='Econ Policy Toolkit', layout='wide')
+
+# Main title
 st.title("Econ Policy Toolkit — Demo")
+
+# 👇 Add your name just below the title
+st.markdown("### Built by **Owais Ali Shah**")
 
 lang = st.sidebar.selectbox("Language / زبان", ["English", "اردو"])
 if lang == "اردو":
