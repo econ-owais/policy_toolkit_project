@@ -1,8 +1,6 @@
-
+ streamlit
 pandas
 numpy
 statsmodels
 geopandas
-streamlit
 requests
-pytest
